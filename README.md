@@ -79,11 +79,8 @@ Anyone can, please cut up and use whatever you want or need. I however will prov
 # Things included and working:
 
 - [x] bash\*
-- [x] nano
 - [x] pkill
 - [x] python3
-- [x] scp/sftp
-- [x] ssh/dropbear
 - [x] wget
 - [x] zip
 
@@ -92,15 +89,10 @@ Anyone can, please cut up and use whatever you want or need. I however will prov
 # Projects used:
 
 - [busybox](https://busybox.net)
-- [dropbear for ssh](https://sftpgo.comhttps://matt.ucc.asn.au/dropbear/dropbear.html)
 - [graphicsmagick](http://www.graphicsmagick.org)
-- [greenend sftp server for scp](https://www.greenend.org.uk/rjk/sftpserver/)
 - [ldd](https://github.com/lattera/glibc/blob/master/elf/ldd.bash.in)
-- [micro](https://micro-editor.github.io)
-- [nano](https://www.nano-editor.org)
 - [python3](https://www.python.org)
 - [sdl2imgshow for displaying splashscreens](https://github.com/kloptops/sdl2imgshow)
-- [sftpgo for sftp/webserver](https://sftpgo.com)
 - [wget](https://www.gnu.org/software/wget/)
 - [xz](https://github.com/kobolabs/liblzma)
 - [zip](https://infozip.sourceforge.net)
@@ -115,9 +107,6 @@ Thanks to:
 - [Tech Toy Tinker](https://techtoytinker.com) for helping out with the device and testing.
 - [Sleepy](https://www.youtube.com/@S1eepy1) for pointing out the device and help with funding dev devices :heart:.
 - [PortMaster](https://discord.gg/SbVcUM4qFp) - The whole crew for being so awesome and supportive.
-
-
-
 
 Another fairly big update to PortMaster on TrimUI, we now have optional support for the Ports tab.
 

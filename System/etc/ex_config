@@ -3,7 +3,7 @@
 export PATH="/mnt/SDCARD/System/bin64:$PATH"
 export LD_LIBRARY_PATH="/mnt/SDCARD/System/lib64:/usr/trimui/lib:$LD_LIBRARY_PATH"
 export EX_CONFIG_PATH="/mnt/SDCARD/System/etc"
-export EX_RESOURCE_PATH="/mnt/SDCARD/System/resources"
+export EX_RESOURCE_PATH="/mnt/SDCARD/System/res"
 
 export TRIMUI_VERSION=$(grep 'DISTRIB_DESCRIPTION' /etc/openwrt_release | cut -d '.' -f 3)
 

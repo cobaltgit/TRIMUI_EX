@@ -1,6 +1,6 @@
 # PortMaster Bootstrap Gluon
 
-This gluon bootstraps PortMaster for Quark v2.0.0 "Fission" and is based on kloptops' [TRIMUI_EX](https://github.com/kloptops/TRIMUI_EX) bootstrapper, with any unneeded components removed.
+This gluon bootstraps PortMaster for Quark v2.0.0 "Fission" and is based on kloptops' [TRIMUI_EX](https://github.com/kloptops/TRIMUI_EX) bootstrapper, with unneeded components removed.
 
 **This gluon is not compatible with the TrimUI Smart. Please use this with the TrimUI Smart Pro or TrimUI Brick.**
 

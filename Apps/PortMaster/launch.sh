@@ -20,7 +20,7 @@ export TERM=linux
 chmod 666 $CUR_TTY
 printf "\033c" > $CUR_TTY
 
-sdl2imgshow.pm \
+sdl2imgshow \
     -i "$EX_RESOURCE_PATH/background.png" \
     -f "$EX_RESOURCE_PATH/DejaVuSans.ttf" \
     -s 48 \
@@ -28,7 +28,7 @@ sdl2imgshow.pm \
     -t "Starting PortMaster" &
 
 sleep 0.5
-pkill -f sdl2imgshow.pm
+pkill -f sdl2imgshow
 
 "$controlfolder/trimui/update.txt"
 

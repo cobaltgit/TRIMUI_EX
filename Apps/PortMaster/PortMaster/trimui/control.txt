@@ -18,7 +18,7 @@ export SDL_GAMECONTROLLERCONFIG_FILE="/$controlfolder/gamecontrollerdb.txt"
 # export SDL_GAMECONTROLLERCONFIG=$(grep "Deeplay" "/usr/lib/gamecontrollerdb.txt")
 
 get_controls() {
-  sdl2imgshow.pm \
+  sdl2imgshow \
       -i "$EX_RESOURCE_PATH/background.png" \
       -f "$EX_RESOURCE_PATH/DejaVuSans.ttf" \
       -s 48 \
@@ -26,7 +26,7 @@ get_controls() {
       -t "Launching $PM_PORTNAME" &
 
   sleep 0.5
-  pkill -f sdl2imgshow.pm
+  pkill -f sdl2imgshow
 }
 
 if [ -f "$controlfolder/cwtbe_flag" ]; then
